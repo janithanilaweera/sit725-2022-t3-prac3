@@ -19,7 +19,8 @@ app.listen(port,()=>{
 //     var result = addNumbers(number1, number2)
 //     res.json({statusCode: 200, data: result, message:'Success'})
 //     })
-app.use(express.static(sit725-2022-t3-prac3+ '/public'))
+app.use(express.static(__dirname+'/public'));
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
